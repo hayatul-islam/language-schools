@@ -1,0 +1,30 @@
+[
+    {
+        "img" : "https://language-school.cmsmasters.net/wp-content/uploads/2015/12/Depositphotos_63889211_original-300x300.jpg",
+        "name" : "ENGLISH FOR CHILDREN",
+        "price" : "260.00",
+        "duration" : "12 Week",
+        "category" : "Chinese, English"
+    },
+    {
+        "img" : "https://language-school.cmsmasters.net/wp-content/uploads/2015/12/Depositphotos_85241664_original1-300x300.jpg",
+        "name" : "LANGUAGE STUDIES",
+        "price" : "350.00",
+        "duration" : "16 Week",
+        "category" : "French, Spanish"
+    },
+    {
+        "img" : "https://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_73936385_original1-300x300.jpg",
+        "name" : "MASTERING GRAMMAR",
+        "price" : "460.00",
+        "duration" : "21 Week",
+        "category" : "French, German"
+    },
+    {
+        "img" : "https://language-school.cmsmasters.net/wp-content/uploads/2015/11/Depositphotos_85241600_original-580x580.jpg",
+        "name" : "LINGVO DIVING.",
+        "price" : "400.00",
+        "duration" : "12 Week",
+        "category" : "English, German"
+    }
+]

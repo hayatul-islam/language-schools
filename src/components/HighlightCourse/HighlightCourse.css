@@ -1,0 +1,14 @@
+/* .coursePrice{
+    font-size: 13px;
+    background-color: #01a2a6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+} */
+.addToCart-btn{
+    background: none;
+    padding: 3px 10px;
+    border-radius: 14px;
+    color: #01a2a6;
+    border: 1px solid #01a2a6;
+}
