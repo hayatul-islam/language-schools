@@ -49,17 +49,24 @@
         "category" : "English, German"
     },
     {
-        "img" : "",
-        "name" : "",
-        "price" : ".00",
-        "duration" : " Week",
+        "img" : "https://language-school.cmsmasters.net/wp-content/uploads/2015/11/Depositphotos_88893684_original-300x300.jpg",
+        "name" : "SECOND LANGUAGE",
+        "price" : "425.00",
+        "duration" : "12 Week",
         "category" : "Chinese, English"
     },
     {
-        "img" : "",
-        "name" : "",
-        "price" : ".00",
-        "duration" : " Week",
+        "img" : "https://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_66455527_original-300x300.jpg",
+        "name" : "BASIC SKILLS",
+        "price" : "160.00",
+        "duration" : "14 Week",
         "category" : "Chinese, English"
+    },
+    {
+        "img" : "https://language-school.cmsmasters.net/wp-content/uploads/2015/07/Depositphotos_49215681_original1-300x300.jpg",
+        "name" : "MINI-МВA",
+        "price" : "230.00",
+        "duration" : "18 Week",
+        "category" : "Spanish, English"
     }
 ]
