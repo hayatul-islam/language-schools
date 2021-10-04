@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {  Container, ProgressBar } from 'react-bootstrap';
+import { Container, ProgressBar } from 'react-bootstrap';
 import HighlightCourse from '../HighlightCourse/HighlightCourse';
 import './Home.css';
 
