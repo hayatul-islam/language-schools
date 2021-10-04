@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const Course = (props) => {
     const {name, img, price, duration, category} = props.course;
     return (
-        <div className="col-md-3">
+        <div className="col-md-3 px-4 py-3">
             <Card>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
@@ -16,7 +16,7 @@ const Course = (props) => {
                 </Card.Body>
                 <Card.Footer className="d-flex justify-content-between align-items-center fs-6">                    
                     <small className="text-muted">{duration}</small>
-                <button className="addToCart-btn">Add to cart</button>
+                <button className="addToCart-btn">Purchase</button>
                 </Card.Footer>
             </Card>
         </div>

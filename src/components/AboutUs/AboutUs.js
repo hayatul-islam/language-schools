@@ -1,10 +1,9 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import './AboutUs.css';
 
 const AboutUs = () => {
     return (
-        <div>
+        <div className="mt-5">
             <div className="about-img mb-4">
                 <h2>About Us</h2>
                 <img className="img-fluid" src={'https://language-school.cmsmasters.net/wp-content/uploads/2016/01/home-bg-3.jpg'} alt="" />

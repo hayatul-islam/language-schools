@@ -12,17 +12,17 @@ const Services = () => {
     }, [])
     return (
         <>
-            <div className="banner-section">
+            <div className="banner-section mt-3">
                 <div className="container">
                     <div className="d-flex justify-content-between align-items-center text-white pt-4 pb-3">
-                        <h3 className="fw-normal">SERVICES</h3>
+                        <h3 className="fw-normal fs-4">SERVICES</h3>
                         <p className="fw-0 ">Home/Services</p>
                     </div>
                 </div>
             </div>
             <Container>
 
-                <div className="row">
+                <div className="row mt-5 pt-4">
                     {
                         courses.map(course => <Course course={course}></Course>)
                     }

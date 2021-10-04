@@ -6,7 +6,7 @@ import { faPhone, faLocationArrow, faInbox } from '@fortawesome/free-solid-svg-i
 const Contact = () => {
     return (
         <div>
-            <div className="banner-section">
+            <div className="banner-section mt-3">
                 <div className="container">
                     <div className="d-flex justify-content-between align-items-center text-white pt-4 pb-3">
                         <h3 className="fw-normal">Contacts</h3>
@@ -45,8 +45,8 @@ const Contact = () => {
                     </div>
                     <div className="col-md-4">
                         {/* contacts  */}
-                        <div>
-                            <h3 className="mb-5">Contact Information</h3>
+                        <div className="mt-3">
+                            <h3 className="mb-5 mt-4 fw-normal">Contact Information</h3>
                             <div>
                                 <small className="fs-5 p-3 text-success"><FontAwesomeIcon icon={faLocationArrow} /></small>
                                 <small>Brooklyn, NY 10036, United States</small>
@@ -63,7 +63,7 @@ const Contact = () => {
 
                         {/* social media */}
                         <div className="mt-5">
-                            <h3>Social Media</h3>
+                            <h3 className="fw-normal mb-0">Social Media</h3>
                             <div className="d-flex">
                                 <div className="pe-4">
                                     <button className="message-btn"><i class="fab fa-facebook-f"></i> Facebook</button>
