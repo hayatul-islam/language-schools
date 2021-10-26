@@ -6,9 +6,12 @@ import './Home.css';
 const Home = () => {
     const [highlightCourse, setHighlightCourse] = useState([]);
     useEffect(() => {
-        fetch('highlights.JSON')
+        fetch('http://localhost:4000/courses')
             .then(res => res.json())
-            .then(data => setHighlightCourse(data))
+            .then(data => {
+                const slice = data.slice(0, 4);
+                setHighlightCourse(slice)
+            })
     }, [])
     return (
         <Container>
