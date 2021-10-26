@@ -6,6 +6,7 @@ import './Home.css';
 const Home = () => {
     const [highlightCourse, setHighlightCourse] = useState([]);
     useEffect(() => {
+
         fetch('http://localhost:4000/courses')
             .then(res => res.json())
             .then(data => {
